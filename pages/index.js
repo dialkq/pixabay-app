@@ -63,7 +63,7 @@ const Home = () => {
 
 
   // React Query
-  const {data,status,error} = useQuery('home',fetchPhoto,
+  const {data,status,error} = useQuery ('home',fetchPhoto,
   {
     staleTime: 1000,
     cacheTime: 10,
